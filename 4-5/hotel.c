@@ -14,7 +14,7 @@
 #include <signal.h>
 
 int CLIENTS_NUM = 55;
-int server_socket; // для самого сервера
+int server_socket;
 char buffer[1024];
 
 // Общая память - список комнат
@@ -154,8 +154,8 @@ int main(int argc, char *argv[]) {
     char *ip = argv[1];
     int port = atoi(argv[2]);
 
-    int client_socket; // для подключения посетителей
-    //int view_sock; // для модуля отображения информации о выставке
+    int client_socket;
+    //int view_sock;
     struct sockaddr_in server_addr, client_addr, view_addr;
     socklen_t addr_size;
 
@@ -202,15 +202,6 @@ int main(int argc, char *argv[]) {
             exit(0);
         }
     }
-
-//    if (childpid > 0) {
-//        while (childpid = waitpid(-1, NULL, 0)) {
-//            if (errno == ECHILD) {
-//                break;
-//            }
-//        }
-//        exit(0);
-//    }
 
     fd_set rfds;
     struct timeval tv;
