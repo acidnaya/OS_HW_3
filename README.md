@@ -15,6 +15,10 @@ gcc hotel.c -o hotel
 ```
 
 ```sh
+gcc view.c -o view
+```
+
+```sh
 gcc client.c -o client
 ```
 
@@ -22,9 +26,11 @@ gcc client.c -o client
 ```sh
 ./hotel 127.0.0.1 8585
 ```
+
 ```sh
 ./view 127.0.0.1 8585
 ```
+
 ```sh
 sh script.bash
 ```
