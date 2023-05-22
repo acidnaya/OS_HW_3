@@ -47,8 +47,10 @@ sh script.bash
 Информация о состоянии отеля и его посетителей выводится через третью сторону - модуль view, который как и обычный клиент подключается к серверу.
 
 ### Примеры работы программы
+Вывод на стороне сервера и клиентов.\
 ![Пример 1](https://github.com/acidnaya/OS_HW_3/blob/main/images/1.jpg)\
 ![Пример 2](https://github.com/acidnaya/OS_HW_3/blob/main/images/2.jpg)\
+Вывод из модуля view.\
 ![Пример 3](https://github.com/acidnaya/OS_HW_3/blob/main/images/3.jpg)\
 ![Пример 4](https://github.com/acidnaya/OS_HW_3/blob/main/images/4.jpg)
 
